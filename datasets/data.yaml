@@ -1,9 +1,25 @@
-train: train/images
-val: valid/images
-test: test/images
+# train: train/images
+# val: valid/images
+# test: test/images
+
+# nc: 1
+# names: ['person']
+
+
+
+
+train: /home/ryo32/YOLO-practice/datasets/train/images
+val: /home/ryo32/YOLO-practice/datasets/valid/images
+test: /home/ryo32/YOLO-practice/datasets/test/images
 
 nc: 1
-names: ['person']
+names: ["person"]
+
+
+
+
+
+
 
 # roboflow:
 #   workspace: leo-ueno

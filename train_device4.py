@@ -8,7 +8,8 @@ def main():
 
     # 学習の実行: device=4 で 4番目のGPUを使用
     model.train(
-        data="datasets/data.yaml",  
+        # data="datasets/data.yaml",  
+        data="/home/ryo32/YOLO-practice/datasets/data.yaml",
         epochs=50,   
         device=4,  
         name="train_on_device4"     
